@@ -90,6 +90,7 @@ body {
     letter-spacing: 7.04px;
     padding-top: 20px;
     padding-left: 100px;
+    margin: 0 auto;
 }
 
 .text-description {
@@ -116,10 +117,11 @@ body {
 }
 
 .about {
-    padding: 130px;
+    padding: 140px;
     border-radius: 10px;
     background-color: #ccadad;
     margin: 130px 450px;
+    margin: 0 auto;
 }
 
 .about-button {
@@ -134,6 +136,7 @@ body {
     text-align: center;
     font-size: large;
     width: 100%;
+    margin: 0 auto;
 }
 
 .red-color {
@@ -166,17 +169,17 @@ body {
 }
 
 /* fifth part styles */
-.functional0 {
+.functional-part1 {
     text-align: center;
     padding-top: 20px;
 }
 
-.functional {
+.functional-part2 {
     color: #070211;
     font-size: small;
 }
 
-.holid {
+.holiday {
     color: #F00;
     text-align: center;
     font-family: Merriweather;
@@ -195,7 +198,7 @@ body {
     line-height: normal;
 }
 
-.dolor {
+.holiday-text {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -206,7 +209,7 @@ body {
     padding: 0px 300px 0px 300px;
 }
 
-.all-image {
+.sale-images {
     display: flex;
     gap: 10px;
     align-items: baseline;
@@ -214,7 +217,7 @@ body {
 
 }
 
-.image-4 {
+.sale-images-bottom {
     align-items: center;
 }
 
@@ -266,6 +269,7 @@ body {
     background-color: #000000;
     background-position: center;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .footer-1st {
@@ -276,6 +280,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+    justify-self: baseline;
 }
 
 .big {
